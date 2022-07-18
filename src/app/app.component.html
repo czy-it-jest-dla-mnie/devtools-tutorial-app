@@ -1,0 +1,58 @@
+
+<div class="content" role="main">
+
+
+<h2>DevTools Tutorial!</h2>
+
+  <div>
+    <label for="number1">
+      Liczba A
+    </label>
+    <input id="number1" type="number" [(ngModel)]="numbers.number1">
+  </div>
+
+  <div>
+    <label for="number2">
+      Liczba B
+    </label>
+    <input id="number2" type="number" [(ngModel)]="numbers.number2">
+  </div>
+
+<button class="button" type="button" (click)=onSubmit()>Wynik</button>
+
+Wynik: {{result}}
+
+<div style="padding-top: 30px;">
+  <div>
+    <label for="amount">
+      Kwota w PLN
+    </label>
+    <input id="amount" type="number" [(ngModel)]="amount">
+  </div>
+
+  <button class="button" type="button" (click)=calculateEx()>Przelicz</button>
+
+  Kwota: {{amountInEuro}} Euro, rate: {{exchangeRate}} 
+</div>
+
+<div style="padding-top: 30px;">
+  <div>
+    <label for="localStorageInput">
+      Local Storage:
+    </label>
+    <input id="localStorageInput" type="text" [(ngModel)]="localStorageInput">
+  </div>
+  <button class="button" type="button" (click)=addToLocalStorage()>Zapisz</button>
+</div>
+<div style="padding-top: 30px;">
+  <div>
+    <label for="localStorageValue">
+      Local Storage Value:
+    </label>
+    <input id="localStorageInput" readonly type="text" [(ngModel)]="localStorageValue">
+  </div>
+  <button class="button" type="button" (click)=getLocalStorageValue()>Pobierz Wartość</button>
+</div>
+
+
+
