@@ -18,7 +18,7 @@ Pamiętaj, przed instalacją angular CLI zainstaluj node.js
 
 Wykonaj komende
 
-``npm install -g @angular/cli
+`npm install -g @angular/cli`
 
 https://angular.io/cli
 
@@ -28,11 +28,11 @@ Otwórz konsole lub terminal w ściągniętym folderze aplikacji (w tym folderze
 
 Wykonaj komendę:
 
-``npm install
+`npm install`
 
 Następnie wykonaj polecenie:
 
-`` ng serve --open
+`ng serve --open`
 
 Aplikacja powinna otworzyć się z ponizszym adresem:
 
