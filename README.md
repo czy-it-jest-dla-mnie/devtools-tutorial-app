@@ -1,27 +1,39 @@
-# DemoAppDevToolsTutorial
+# Instalacja zaleznosci
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+1. Zainstaluj node.js na swoim komputerze. 
 
-## Development server
+https://nodejs.org/en/download/current/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. Zainstaluj GIT lub pobierz pliki aplikacji jako zip
 
-## Code scaffolding
+https://git-scm.com/downloads
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Aby pobrać aplikację na dysk uzywajac GIT otwórz konsole lub terminal w wybranym przez siebie folderze, a następnie wykonaj polecenie:
 
-## Build
+``git clone https://github.com/czy-it-jest-dla-mnie/devtools-tutorial-app.git
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Zainstaluj Angular CLI
 
-## Running unit tests
+Pamiętaj, przed instalacją angular CLI zainstaluj node.js
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Wykonaj komende
 
-## Running end-to-end tests
+``npm install -g @angular/cli
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+https://angular.io/cli
 
-## Further help
+# Uruchomienie aplikacji
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Otwórz konsole lub terminal w ściągniętym folderze aplikacji (w tym folderze powinnien znajdować się folder 'SRC' )
+
+Wykonaj komendę:
+
+``npm install
+
+Następnie wykonaj polecenie:
+
+`` ng serve --open
+
+Aplikacja powinna otworzyć się z ponizszym adresem:
+
+http://localhost:4200
