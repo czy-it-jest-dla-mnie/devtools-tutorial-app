@@ -1,4 +1,5 @@
-# UWAGA: Film instruktazowy instalacji zaleznosci znajduje się w ostatniej lekcji kursu
+# UWAGA: 
+Film instruktazowy instalacji zaleznosci znajduje się w ostatniej lekcji kursu
 
 # Instalacja zaleznosci
 
