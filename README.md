@@ -1,3 +1,5 @@
+# UWAGA: Film instruktazowy instalacji zaleznosci znajduje się w ostatniej lekcji kursu
+
 # Instalacja zaleznosci
 
 1. Zainstaluj node.js na swoim komputerze. 
@@ -37,3 +39,4 @@ Następnie wykonaj polecenie:
 Aplikacja powinna otworzyć się z ponizszym adresem:
 
 http://localhost:4200
+
