@@ -63,7 +63,7 @@ export class AppComponent {
     console.log("Dodaje dwie liczby: ")
     console.log('Liczba A: ' + this.numbers.number1)
     console.log('Liczba B: ' + this.numbers.number2)
-    this.result = this.numbers.number1 + this.numbers.number2 + 1;
+    this.result = this.numbers.number1 + this.numbers.number2 ;
     console.log('Wynik dodawania: ' + this.result)
   }
 
