@@ -10,7 +10,7 @@ https://git-scm.com/downloads
 
 Aby pobrać aplikację na dysk uzywajac GIT otwórz konsole lub terminal w wybranym przez siebie folderze, a następnie wykonaj polecenie:
 
-``git clone https://github.com/czy-it-jest-dla-mnie/devtools-tutorial-app.git
+`git clone https://github.com/czy-it-jest-dla-mnie/devtools-tutorial-app.git`
 
 3. Zainstaluj Angular CLI
 
